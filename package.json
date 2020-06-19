@@ -1,0 +1,25 @@
+{
+  "name": "@glomex/parcel-optimizer-disable-amd",
+  "version": "1.0.0",
+  "description": "Disables usage of AMD for parcel generated js files ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parcel",
+    "parcel-optimizer",
+    "parcel-plugin",
+    "umd",
+    "amd"
+  ],
+  "author": "glomex GmbH",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-beta.1"
+  },
+  "engines": {
+    "node": "^10",
+    "parcel": "^2.0.0-beta.1"
+  }
+}
